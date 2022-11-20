@@ -1,4 +1,4 @@
-# Dog_breed_classification
+# Dog_breed_classification(udacity nanodegree project)
 dog breed classification using convolutional neural network (often abbreviated as CNN) using three different architectures AlexNet, VGG, and ResNet.
 
 classification using VGG:
