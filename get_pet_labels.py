@@ -55,6 +55,7 @@ def get_pet_labels(image_dir):
                     pet_label += pet_name[letter]
 
            pet_label = pet_label.lower()
+           
            if in_files[idx] not in results_dic:
               results_dic[in_files[idx]] = [pet_label]    
            else:

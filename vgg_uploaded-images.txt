@@ -52,7 +52,7 @@ PetLabelDog: 1  ClassLabelDog: 0
 
  ** Statistics from calculates_results_stats() function:
 N Images:  4  N Dog Images:  2  N NotDog Images:  2 
-Pct Corr dog:  50.0 Pct Corr NOTdog: 100.0  Pct Corr Breed: 100.0
+Pct Corr dog:  50.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:  50.0
 
  ** Check Statistics - calculated from this function as a check:
 N Images:  4  N Dog Images:  2  N NotDog Images:  2 
@@ -66,12 +66,10 @@ N Not-Dog Images: 2
  
 pct_match: 50.0
 pct_correct_dogs: 50.0
-pct_correct_breed: 100.0
+pct_correct_breed: 50.0
 pct_correct_notdogs: 100.0
 
 INCORRECT Dog/NOT Dog Assignments:
 Pet label: dog, Classifier label: red_wolf,_maned_wolf,_canis_rufus,_canis_niger
-
-INCORRECT Dog Breed Assignment:
 
 ** Total Elapsed Runtime: 0:0:3
