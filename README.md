@@ -315,7 +315,7 @@ PetLabelDog: 0  ClassLabelDog: 0
 
  ** Statistics from calculates_results_stats() function:
 N Images: 40  N Dog Images: 30  N NotDog Images: 10 
-Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed: 100.0
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:  93.3
 
  ** Check Statistics - calculated from this function as a check:
 N Images: 40  N Dog Images: 30  N NotDog Images: 10 
@@ -329,8 +329,12 @@ N Not-Dog Images: 10
  
 pct_match: 87.5
 pct_correct_dogs: 100.0
-pct_correct_breed: 100.0
+pct_correct_breed: 93.33333333333333
 pct_correct_notdogs: 100.0
 
-** Total Elapsed Runtime: 0:0:34
+INCORRECT Dog Breed Assignment:
+Real:             great_pyrenees   Classifier:                         kuvasz
+Real:                     beagle   Classifier:  walker_hound,_walker_foxhound
+
+** Total Elapsed Runtime: 0:0:32
 
